@@ -1,14 +1,16 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+	<ion-toolbar>
+	  <ion-title>Home Page</ion-title>
+	</ion-toolbar>
+  </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
-</ion-content>
+  <ion-content>
+    <form>
+			<ion-label >Email</ion-label>
+      <ion-input type="email" placeholder="email adress"></ion-input>
+		  <ion-label class="passwd">Password</ion-label>
+		  <ion-input type="password" placeholder="password"></ion-input>
+      <button class = "mybutton" type="submit"  >Log In</button>
+      <a href="./forgetpwd.html">Forget password?</a>
+      </form>
+  </ion-content>

@@ -1,3 +1,28 @@
-page-home {
 
+
+  ion-content{
+    background: linear-gradient( #ffffff , #b79891);
+  form{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50%;
+
+
+  }
+
+  .mybutton{
+    background-color: #94716B;
+    height: 30px;
+    width: 100%;
+  }
+
+  ion-input{
+    display: inline;
+  }
+  a{
+
+    float: right;
+    color : black;
+
+  }
 }
